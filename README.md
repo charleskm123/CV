@@ -1,2 +1,1 @@
-CV
 Curriculum Vitae
