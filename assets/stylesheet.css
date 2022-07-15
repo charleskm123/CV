@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+body {
+font-family: 'Sora', sans-serif;
+font-size: 13px;
+margin: 0px;
+text-align: left;
+line-height: 30px;
+background-color: #00ADB5;
+}
+
+footer {
+padding: 10px;
+color: white;
+background-color: #222831;
+text-align: center;
+font-weight: bold;
+}
+
+ul {
+padding: 10px;
+}
+
+.profile header {
+text-align: center;
+}
+
+.profile img {
+width: 200px;
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+padding: 20px;
+margin-top: 20px;
+background-color: #EEEEEE;
+}
+
+.jumbotron {
+padding: 12px;
+background-color: #222831;
+text-align: center;
+font-size: 11px;
+color: #FFFFFF;
+}
+
+nav {
+background-color: #393E46;
+padding: 5px;
+position: sticky;
+top: 0;
+}
+
+nav li {
+display: inline;
+list-style-type: none;
+margin-right: 20px;
+}
+
+nav a {
+font-size: 15px;
+font-weight: 400;
+text-decoration: none;
+color: white;
+}
+
+nav a:hover {
+font-weight:bold;
+}
+
+header {
+display: inline;
+}
+
+main {
+padding: 20px;
+overflow: auto;
+}
+
+#content {
+float: left;
+width: 50%;
+}
+
+aside {
+float: right;
+width: 49%;
+padding-left: 5px;
+}
+
+@media screen and (max-width: 1080px) {
+#content, aside {
+width: 100%;
+padding: 0;
+}
+}
